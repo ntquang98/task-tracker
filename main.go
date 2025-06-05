@@ -152,7 +152,11 @@ func addTask(args []string, file *os.File, tasks []Task) {
 	}
 
 	now := time.Now()
-	newID := int64(len(tasks) + 1)
+	var newID int64 = 1
+	if len(tasks) > 0 {
+		lastID := tasks[len(tasks)-1].ID
+		newID = lastID + 1
+	}
 
 	newTask := Task{
 		ID:          newID,
