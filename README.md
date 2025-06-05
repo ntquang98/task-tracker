@@ -2,9 +2,9 @@
 
 [task-tracker](https://roadmap.sh/projects/task-tracker) Challenge from [roadmap.sh](https://roadmap.sh)
 
-# How to run
+## How to run
 
-## Build the project
+### Build the project
 
 ```bash
 # clone project
@@ -35,4 +35,3 @@ go build -o task-cli
 # To Delete a task
 ./task-cli delete 1
 ```
-
