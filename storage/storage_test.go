@@ -2,9 +2,10 @@ package storage
 
 import (
 	"os"
-	"task-cli/tasks"
 	"testing"
 	"time"
+
+	"github.com/ntquang98/task-tracker/tasks"
 )
 
 func TestFileStorage(t *testing.T) {
