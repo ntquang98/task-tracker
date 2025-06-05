@@ -1,2 +1,3 @@
 task.json
+*.json
 task-cli

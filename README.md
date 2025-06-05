@@ -12,7 +12,7 @@ https://github.com/ntquang98/task-tracker
 cd task-tracker
 
 # build
-go build -o task-cli
+go build -o task-cli ./cmd/task-cli
 ./task-cli help # list of available commands
 
 # to add a task
@@ -34,4 +34,10 @@ go build -o task-cli
 
 # To Delete a task
 ./task-cli delete 1
+```
+
+### Install with go install
+
+```bash
+go install github.com/ntquang98/task-tracker/cmd/task-cli@latest
 ```
